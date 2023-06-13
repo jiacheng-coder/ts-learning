@@ -1,0 +1,3 @@
+var fooOrBar = {
+    foo: string
+};
