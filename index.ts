@@ -1,11 +1,8 @@
-function addSomething<T>(arg:T):T{
-  return arg
+let obj = {
+  1: 'bart',
+  2: 'lucy'
 }
-let something = addSomething<number>(23)
-console.log('nb');
-
-
-
-
-
-
+let arr = Object.keys(obj)
+arr.forEach(item=>{
+  console.log(typeof item);
+})
